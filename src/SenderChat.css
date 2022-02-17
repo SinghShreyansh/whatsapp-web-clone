@@ -1,0 +1,27 @@
+.senderChat{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.senderChat >.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #DCF8C6;
+    margin-bottom: 30px;
+}
+
+.senderChat > .chat__timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.senderChat > .chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: small;
+}
