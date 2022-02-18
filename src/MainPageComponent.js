@@ -6,12 +6,13 @@ const MainPageComponent = ({LastMsg,RoomName}) => {
     const ClickRoom = (e)=>{
         e.preventDefault()
 
-        document.getElementById("roomName").innerHTML= RoomName;     
+        document.getElementById("roomName").innerHTML= RoomName; 
+        document.getElementById("sideRoom").style.background-color = "#EDEDED";
         
      }
     
   return <div className='mainpagecomponent'  >
-          <div className="mainpagecomponent_main" onClick={ClickRoom}>
+          <div className="mainpagecomponent_main" id="sideRoom" onClick={ClickRoom}>
               <Avatar/>
               <div className="messengerDetail">
                   <h2 className="messangerName">
