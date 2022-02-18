@@ -7,7 +7,7 @@ const MainPageComponent = ({LastMsg,RoomName}) => {
         e.preventDefault()
 
         document.getElementById("roomName").innerHTML= RoomName; 
-        document.getElementById("sideRoom").style.background-color = "#EDEDED";
+        document.getElementById("sideRoom").style.backgroundColor = "#EDEDED";
         
      }
     
